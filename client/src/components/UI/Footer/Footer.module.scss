@@ -1,0 +1,33 @@
+@import 'src/styles/_variables.scss';
+
+.inner {
+    margin-top: 80px;
+    border-top: 1px solid $gray-200;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    .copyright {
+        font-size: 13px;
+        color: $gray-600;
+    }
+    .ul {
+        display: flex;
+        flex-grow: 1;
+        li {
+            margin-right: 20px;
+            &:last-child {
+                margin-right: 0;
+            }
+            a {
+                transition: .2s;
+                font-size: 13px;
+                color: $gray-600;
+            }
+            &:hover {
+                a {
+                    color: $main-color;
+                }
+            }
+        }
+    }
+}

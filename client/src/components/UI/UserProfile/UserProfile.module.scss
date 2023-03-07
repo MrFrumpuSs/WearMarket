@@ -1,0 +1,13 @@
+.profile {
+    display: flex;
+    align-items: center;
+    .login {
+        margin-right: 10px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .avatar {
+        width: 40px;
+        height: 40px;
+    }
+}

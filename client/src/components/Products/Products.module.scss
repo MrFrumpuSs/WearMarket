@@ -1,0 +1,19 @@
+@import 'src/styles/_variables.scss';
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    .product {
+        flex: 0 0 12.5%;
+    } 
+}
+
+.head {
+    padding-left: 10px;
+    margin-bottom: 15px;
+    .title {
+        font-size: 22px;
+        font-weight: 500;
+        color: $gray-700;
+    }
+}

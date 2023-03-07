@@ -1,0 +1,16 @@
+@import 'src/styles/_variables.scss';
+
+.developers {
+    display: flex;
+    flex-wrap: wrap;
+    .developer {
+        flex: 0 0 12.5%;
+    } 
+}
+.title {
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    color: $gray-700;
+}
